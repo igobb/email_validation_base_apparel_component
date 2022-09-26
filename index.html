@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+
+</head>
+<body>
+  <main class="container">
+    <section class="content__container">
+      <div class="logo__content">
+        <img src="/images/logo.svg" alt="Logo Base Apparel" class="logo_img">
+      </div>
+      <div class="hero_mobile__content">
+        <img src="images/hero-mobile.jpg" alt="Woman - face of brand" class="hero_mobile_img">
+      </div>
+      <section class="text__content">
+        <h1 class="title_text"><span class="decorate_title_text">We're</span> <br> coming<br>soon</h1>
+          <p class="paragraph_text"> Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      </section>
+      <section class="email_text__content">
+        <form action="#" id="email_validation">
+          <div class="input_box">
+            <input type="text" name="" id="email" placeholder="Email Address" onkeydown="validation()">
+            <button class="submit_btn"><img src="images/icon-arrow.svg" alt="arrow right" class="arrow_img"></button>
+            <img src="images/icon-error.svg" alt="error" class="error_img">
+            <br><span id="error"></span>
+          </div>
+        </form>
+      </section>
+    </section>
+    <div class="hero__container">
+      <img src="images/hero-desktop.jpg" alt="Woman - face of brand" class="hero_img">
+    </div>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
